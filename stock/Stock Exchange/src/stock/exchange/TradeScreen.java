@@ -250,7 +250,7 @@ for (int i = rowCount - 1; i >= 0; i--) {
         /* Create and display the form */
         java.awt.EventQueue.invokeLater(new Runnable() {
             public void run() {
-               //new TradeScreen(1).setVisible(true);
+               new TradeScreen(1).setVisible(true);
                MarqueeTest m1 = new MarqueeTest();
               m1.display();
             }
